@@ -75,7 +75,8 @@ binary_multi_network_sim_data_gen <- function(V, N, R.star, pi.nz, mu.tr, seed) 
     
   }
   
-  return(list(y = y, Xmat1 = Xmat1, Xmat2 = Xmat2))
+  return(list(y = y, Xmat1 = Xmat1, Xmat2 = Xmat2, b1.tr = b1.tr, b2.tr = b2.tr,
+              nz.index = nz.index))
   
   
 }
